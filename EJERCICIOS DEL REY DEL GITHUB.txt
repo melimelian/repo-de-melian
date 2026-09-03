@@ -1,0 +1,208 @@
+ej-1---------------------------------------------------------------------------------------- 
+function contrasenaValida(str) {
+    // Tu código acá:
+return str === "2Fj(jjbFsuj" || str === "eoZiugBf&g9";
+}
+console.log(contrasenaValida("2Fj(jjbFsuj"))
+console.log(contrasenaValida("eoZiugBf&g9"))
+console.log(contrasenaValida("hola"))
+console.log(contrasenaValida(""))
+ej-2----------------------------------------------------------------------------------------
+function calcularImpuestos(edad, ingresos) {
+    // Tu código acá:
+if (edad >= 18 && ingresos >= 1000) { return ingresos * 0.4; } 
+  return 0;
+    
+}
+console.log(calcularImpuestos(18, 1000)) 
+console.log(calcularImpuestos(40, 10000)) 
+console.log(calcularImpuestos(17, 5000))
+console.log(calcularImpuestos(30, 500))
+console.log(calcularImpuestos(19, 500))
+ej-3-----------------------------------------------------------------------------------------
+function bmi(peso, altura) {
+    // Tu código acá:
+
+    const indice = peso / (altura ** 2);
+    if (indice < 18.5) {
+        return "Bajo de peso";
+    } else if (indice < 25) {
+        return "Normal";
+    } else if (indice < 30) {
+        return "Sobrepeso";
+    } else {
+        return "Obeso";
+    }
+}
+console.log(bmi(65, 1.8))
+console.log(bmi(72, 1.6))
+console.log(bmi(52, 1.75))
+console.log(bmi(135, 1.7))
+ej-4----------------------------------------------------------------------------------------
+function fizzBuzz(num) {
+    if (num % 3 === 0 && num % 5 === 0) {
+        return "fizzbuzz";
+    } else if (num % 3 === 0) {
+        return "fizz";
+    } else if (num % 5 === 0) {
+        return "buzz";
+    } else {
+        return num;
+    }
+}
+console.log(fizzBuzz(6))
+console.log(fizzBuzz(20))
+console.log(fizzBuzz(30))
+console.log(fizzBuzz(8))
+ej-5----------------------------------------------------------------------------------------
+function sumarRango(numeroInicial, numeroFinal) {
+    let suma = 0;
+    for (let i = numeroInicial; i <= numeroFinal; i++) {
+        suma += i;
+    }
+    return suma;
+}
+console.log(sumarRango(0, 10))
+console.log(sumarRango(12, 14))
+console.log(sumarRango(5, 5))
+ej-6----------------------------------------------------------------------------------------
+function imprimirArreglo(arreglo) {
+    for (let i = 0; i < arreglo.length; i++) {
+        console.log(arreglo[i]);
+    }
+}
+imprimirArreglo([1, "Hola", 2, "Mundo"])
+ej-7----------------------------------------------------------------------------------------
+function numeroDeCaracteres(str, caracter) {
+    let contador = 0;
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] === caracter) {
+            contador++;
+        }
+    }
+    return contador;
+}
+console.log(numeroDeCaracteres("Hola Mundo", "o"))
+console.log(numeroDeCaracteres("MMMMM", "m"))
+console.log(numeroDeCaracteres("eeee", "e"))
+ej-8----------------------------------------------------------------------------------------
+function duplicar(arreglo) {
+    let nuevoArreglo = [];
+    for (let i = 0; i < arreglo.length; i++) {
+        nuevoArreglo.push(arreglo[i] * 2);
+    }
+    return nuevoArreglo;
+}
+console.log(duplicar([1, 2, 3]))
+console.log(duplicar([]))
+ej-9----------------------------------------------------------------------------------------
+function calcularEstadisticasDescarga(cantArchivos, tamanoPromedioMB) {
+    const cant = Number(cantArchivos);
+    const tamano = Number(tamanoPromedioMB);
+
+    const pesoTotalMB = cant * tamano;
+    const pesoTotalKB = pesoTotalMB * 1024;
+
+    return `Se descargarán ${cant} archivos con un peso total de ${pesoTotalKB} KB.`;
+}
+console.log(calcularEstadisticasDescarga("10", "1.5"))
+ej-10---------------------------------------------------------------------------------------
+function evaluarAccesoApp(edad, tienePermisoDocente, esInvitado) {
+    if (esInvitado) {
+        return false;
+    }
+    return edad >= 18 || tienePermisoDocente;
+}
+console.log(evaluarAccesoApp(16, true, false))
+console.log(evaluarAccesoApp(20, false, true))
+ej-11---------------------------------------------------------------------------------------
+function simularReportePing(intentosMaximos) {
+    for (let intento = 1; intento <= intentosMaximos; intento++) {
+        if (intento % 5 === 0) {
+            console.log(`Error crítico de hardware en intento ${intento}`);
+            break;
+        } else if (intento % 2 === 0) {
+            console.log(`Intento ${intento}: Exitoso`);
+        } else {
+            console.log(`Intento ${intento}: Fallido`);
+        }
+    }
+}
+simularReportePing(12)
+ej-12---------------------------------------------------------------------------------------
+function procesarCompraMovil(precioBase, descuentoPct) {
+    function aplicarDescuento(precio, descuento) {
+        return precio - (precio * descuento / 100);
+    }
+
+    const sumarIva = function (precio) {
+        return precio + (precio * 0.21);
+    };
+
+    const redondear = (valor) => Number(valor.toFixed(2));
+
+    const precioConDescuento = aplicarDescuento(precioBase, descuentoPct);
+    const precioConIva = sumarIva(precioConDescuento);
+    return redondear(precioConIva);
+}
+console.log(procesarCompraMovil(100, 10))
+ej-13---------------------------------------------------------------------------------------
+function dibujarGraficoConsumo(pasos) {
+    let grafico = "";
+    for (let fila = 1; fila <= pasos; fila++) {
+        for (let columna = 1; columna <= fila; columna++) {
+            grafico += "█";
+        }
+        grafico += "\n";
+    }
+    return grafico;
+}
+console.log(dibujarGraficoConsumo(3))
+peaje----------------------------------------------------------------------------------------
+function calcularTarifa(tipoVehiculo, hora, esFeriado) {
+    const tipo = tipoVehiculo.toLowerCase();
+
+    const tarifasBase = {
+        moto: 150,
+        auto: 300,
+        camion: 600
+    };
+
+    if (!(tipo in tarifasBase)) {
+        console.log(`Advertencia: "${tipoVehiculo}" no es un tipo de vehículo válido.`);
+        return 0;
+    }
+
+    let tarifa = tarifasBase[tipo];
+
+    const esHoraPico = (hora >= 8 && hora <= 10) || (hora >= 17 && hora <= 19);
+
+    if (esHoraPico && !esFeriado) {
+        tarifa += tarifa * 0.3;
+    }
+
+    return tarifa;
+}
+
+function simularFilaCabina(cantidadVehiculos) {
+    const tipos = ["moto", "auto", "camion"];
+    let totalRecaudado = 0;
+
+    for (let i = 1; i <= cantidadVehiculos; i++) {
+        const tipoVehiculo = tipos[Math.floor(Math.random() * tipos.length)];
+        const hora = Math.floor(Math.random() * 24);
+        const esFeriado = Math.random() < 0.5;
+
+        const tarifa = calcularTarifa(tipoVehiculo, hora, esFeriado);
+        totalRecaudado += tarifa;
+
+        console.log(`[Intento ${i}] Vehículo: ${tipoVehiculo} | Hora: ${hora} | Feriado: ${esFeriado} | Tarifa cobrada: $${tarifa}`);
+    }
+
+    return totalRecaudado;
+}
+
+console.log(calcularTarifa("moto", 9, false))
+console.log(calcularTarifa("auto", 18, true))
+console.log(calcularTarifa("camion", 12, false))
+console.log(simularFilaCabina(5))
