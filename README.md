@@ -6,14 +6,16 @@
 
 # Nota por Profesor Axel:
 
-¡Excelente trabajo, Melian! Resolviste de manera sobresaliente la totalidad de los ejercicios de la Clase 03 y el desafío integrador `peaje.js`.
+Melian, si bien el código presentado funciona a nivel de sintaxis, **hay dos aspectos fundamentales a corregir con urgencia:**
 
-**Puntos destacados:**
-- Estructura limpia y excelente nivel técnico.
-- Gran uso de objetos literales (`tarifasBase`), destructuring y operadores modernos como `**` en el IMC.
-- Correcta normalización con `.toLowerCase()` y uso de Template Literals.
+1. **INCUMPLIMIENTO DE LA CONSIGNA Y FORMATO DE ENTREGA:**  
+   Subiste toda la ejercitación en un único archivo de texto plano (`TP 1 reydelgithub.txt`). **ESTÁN EN EL ÚLTIMO AÑO Y A PUNTO DE RECIBIRSE DE TÉCNICOS:** no va más entregar código suelto en un `.txt`. Un futuro técnico debe saber estructurar un proyecto, crear los archivos `.js` correspondientes y mantener un flujo de trabajo profesional con Git. Por esta razón, te reorganice los archivos dentro de la carpeta `/clase-03`.
 
-**Recomendaciones para futuros trabajos:**
-- **Atención con los `console.log`:** Si el enunciado no pide expresamente mostrar en consola o en pantalla, las funciones de lógica pura no deberían consologuear nada internamente (a menos que sea temporalmente a modo de depuración). Deben limitarse a procesar y retornar el valor con `return`.
+2. **USO DIRECTO DE INTELIGENCIA ARTIFICIAL:**  
+   Se nota claramente el uso de IA para generar la resolución de los ejercicios. LA IA ES UNA HERRAMIENTA DE APOYO, NO UN REEMPLAZO DEL PENSAMIENTO ALGORÍTMICO. Copiar soluciones generadas sin razonar los fundamentos no te va a preparar para los desafíos reales del desarrollo móvil.
 
-**Calificación Clase 03:** ✅ Corregido (10/10)
+**Llamado a la acción:**
+- **Atención con los `console.log`:** Las funciones de lógica pura no deben consologuear internamente datos salvo para depuración; deben retornar el valor con `return`.
+- **Defensa de código:** En la próxima clase presencial vamos a revisar estos ejercicios de forma oral para evaluar la comprensión real de cada desarrollo.
+
+**Calificación Clase 03:** ⚠️ Corregido con Observaciones (Formato .txt e IA / Requiere Defensa Oral)

@@ -7,12 +7,12 @@
 
 function calcularImpuestos(edad, ingresos) {
     // Tu código acá:
-if (edad >= 18 && ingresos >= 1000) { return ingresos * 0.4; } 
-  return 0;
-    
+    if (edad >= 18 && ingresos >= 1000) { return ingresos * 0.4; }
+    return 0;
+
 }
-console.log(calcularImpuestos(18, 1000)) 
-console.log(calcularImpuestos(40, 10000)) 
+console.log(calcularImpuestos(18, 1000))
+console.log(calcularImpuestos(40, 10000))
 console.log(calcularImpuestos(17, 5000))
 console.log(calcularImpuestos(30, 500))
 console.log(calcularImpuestos(19, 500))
