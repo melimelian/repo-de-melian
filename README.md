@@ -1,2 +1,3 @@
 # repo-de-melian
-ejejej
+Melian Alejandro Pizzorno Sequeira
+melianlanus3@gmail.com
