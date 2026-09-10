@@ -2,9 +2,39 @@
 **Alumno:** PIZZORNO SEQUEIRA, Melian Alejandro  
 **Email:** melianlanus3@gmail.com  
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 
-# Nota por Profesor Axel:
+# Nota por Profesor Axel CLASE 03:
 
 Melian, si bien el código presentado funciona a nivel de sintaxis, **hay dos aspectos fundamentales a corregir con urgencia:**
 
