@@ -60,7 +60,7 @@ x ultimo el return para terminar q es como el resultado final
 //let claseBoton = "";
 //let iconoFavorito = "☆";
 
--uso LET x q estos valores van a ir cambiando. arranco claseBoton vacio y iconoFavorito con la estrella vacia como valor x defecto.
+-uso LET xq estos valores van a ir cambiando. arranco claseBoton vacio y iconoFavorito con la estrella vacia como valor x defecto.
 
 //if (esFavorito) {
 // claseBoton = "en-favoritos";
@@ -71,7 +71,7 @@ x ultimo el return para terminar q es como el resultado final
 
 //return // <article class="tarjeta-producto" data-id="${id}"> // ... // </article> //;
 
--el return me devuelve todo este bloque de html armado como un template literal (x eso las comillas invertidas), y adentro con ${ } voy metiendo las variables x q se reemplacen x su valor real.
+-el return me devuelve todo este bloque de html armado como un template literal (x eso las comillas invertidas), y adentro con ${ } voy metiendo las variables para q se reemplacen x su valor real.
 
 //export function filtrarProductos(lista, textoBusqueda, categoria, favoritosIds = []) {
 
