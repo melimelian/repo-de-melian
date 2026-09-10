@@ -1,6 +1,7 @@
 bueno explicacion paso a paso de cada archivo.
+---
 
-#api.js
+# api.js:
 
 //export async function descargarProductosTech() { 
 
@@ -41,10 +42,9 @@ x ultimo el return para terminar q es como el resultado final
 
 
 
+---
 
-
-                                                   - ui.js -
-
+# ui.js:
 
 
 
@@ -121,8 +121,8 @@ x ultimo el return para terminar q es como el resultado final
 -x ultimo el return q devuelve ese total como resultado final de la funcion.
 
 
+---
 
-
-                                                          - app.js - 
+# app.js:
 
 muy largo no llegue jejej
