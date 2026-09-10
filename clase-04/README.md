@@ -1,6 +1,6 @@
 bueno explicacion paso a paso de cada archivo.
 
-                                                       - api.js - 
+#api.js
 
 //export async function descargarProductosTech() { 
 
