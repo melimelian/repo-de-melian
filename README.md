@@ -3,7 +3,9 @@
 **Email:** melianlanus3@gmail.com  
 
 
+# Nota por Profesor Axel 20/11:
 
+Hola Melian AKA KingOfIA: En términos generales está todo bien, no está completo el tp integrador, pero la entrega es solo una calificación más. Lo que me interesa es como venís con la materia y si comprendés lo visto en clase. Me gustaría que la clase que viene podamos charlar un rato y me cuentes cual es tu estado con los temas dados, y que me hagas todas las preguntas o despejemos todas las dudas necesarias. Saludos!. 
 
 
 

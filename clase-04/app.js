@@ -169,3 +169,7 @@ contenedorCatalogo.addEventListener("click", function (evento) {
 // ==========================================================================
 actualizarBadgeFavoritos();
 cargarCatalogo();
+
+// 📌 Feedback Docente (Profesor Axel):
+// Orquestador principal muy prolijo. Excelente delegación de eventos y manejo del estado global. Falta crear y subir `js/storage.js` para que la app resuelva las llamadas a `obtenerFavoritos()` y `alternarFavorito()`.
+

@@ -20,3 +20,7 @@ export async function descargarProductosTech() {
 
     return productos;
 }
+
+// 📌 Feedback Docente (Profesor Axel):
+// Excelente implementación de `Promise.all` para descargas paralelas y `flatMap` para unificar categorías. Ojo: acordate de subir el módulo `storage.js` al repositorio para completar la persitencia de favoritos.
+
